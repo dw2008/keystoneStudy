@@ -15,9 +15,9 @@ Codename:	jammy
 2. Go to example directory then add following line at the end of the CMakeLists.txt
 ```
 add_subdirectory(my-hello)
-
 ```
 This will let keystone to build my-hello as an enclave.
+
 3. Go to keystone root directory the build by running:  `make -j$(nproc)`
 4. Start QEMU by `make run`
 5. Start Keystone by `modprobe keystone-driver`

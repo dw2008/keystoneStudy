@@ -22,7 +22,7 @@ This will let keystone to build my-hello as an enclave.
 4. Start QEMU by `make run`
 5. Start Keystone by `modprobe keystone-driver`
 6. Go to `/usr/share/keystone/examples`
-7. Run Enclave `./my-hello`
+7. Run Enclave `./my-hello.ke`
 
 
 I am currently have following error even just put hello world in hello1.cpp file. 
